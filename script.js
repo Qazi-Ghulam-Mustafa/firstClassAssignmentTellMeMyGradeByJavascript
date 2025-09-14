@@ -23,7 +23,15 @@
 //     alert("you are Fail in your exam ")
 // }
 
-var num= prompt("How much time i print table of 3");
-for(index=1; index<21; index++ ){
-    console.log(index*5)
+// var num= prompt("How much time i print table of 3");
+// for(index=1; index<21; index++ ){
+//     console.log(index*5)
+// }
+
+
+// this is Array and the index of this array is 6 and length of this array is 7 
+
+var continents = ["Asia", "Africa", "Europe", "Antartica", "North america", "South America", "Australia"];
+for(index=0 ; index < continents.length; index++ ){
+    console.log(continents[index])
 }
